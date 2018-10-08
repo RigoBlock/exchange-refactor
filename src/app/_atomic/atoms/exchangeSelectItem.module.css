@@ -1,0 +1,26 @@
+.account {
+  /* padding: 4px 0 !important; */
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+
+.details {
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+}
+
+.image img {
+  height: 25px;
+  margin-top: 0px;
+  margin-right: 1em;
+  margin-left: 0px;
+  vertical-align: middle;
+}

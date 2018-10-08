@@ -1,0 +1,14 @@
+.topBarButton {
+  color: white !important;
+  line-height: 32px !important;
+}
+
+.topBarButtonSelected {
+  color: white !important;
+  line-height: 32px !important;
+  border-bottom-color: #FFFFFF !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 2px !important;
+}
+
+

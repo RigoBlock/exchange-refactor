@@ -1,0 +1,61 @@
+.progressBar {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+  }
+
+  .menu {
+    position: absolute;
+    right: 0;
+    z-index: 999;
+  }
+
+@keyframes pulse {
+  0%{opacity:.5}100%{opacity:1}
+}
+.post {
+    margin-bottom: 12px;
+    padding: 16px 16px 42px;
+    border-radius: 4px;
+    width: 530px;
+    height: 40px;
+    margin: 10px auto 20px;
+    background: #E1E9EE;
+}
+.width500 {
+    width: 500px;
+}
+.width470 {
+    width: 470px;
+}
+.width110 {
+    width: 110px;
+}
+.width250 {
+    width: 250px;
+}
+
+.line {
+    height: 10px;
+    margin: 10px 0;
+}
+.circle, .line,  .rect {
+    background: #fff;
+    -webkit-animation: pulse .65s infinite alternate;
+    animation: pulse .65s infinite alternate;
+}
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 56px;
+    height: 56px;
+}
+.wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.height20 {
+    height: 20px;
+}

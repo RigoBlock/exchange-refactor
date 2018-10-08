@@ -1,0 +1,25 @@
+
+.containerOrders {
+  /* padding: 5px; */
+}
+
+.tableTitle{
+font-size: 14px;
+font-weight: 700;
+}
+
+.tableTitleCellAction{
+  text-align: right;
+  }
+
+.rowText{
+  font-size: 14px;
+  }
+.cancelLink{
+  color: rgb(255, 64, 129);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+

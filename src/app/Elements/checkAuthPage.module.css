@@ -1,0 +1,39 @@
+.paperContainer {
+  padding: 10px;
+  display: 'inline-block';
+}
+.title {
+  text-align: center;
+}
+
+.walletTitle {
+  font-size: 24px !important;
+  border-bottom: 1px solid #e4e6e8;
+}
+
+.walletBox {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.warnMsgBox {
+  border: 1px solid #FFF59D;
+  border-radius: 2px;
+  background-color: #FFFDE7;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Branding {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 1;
+  text-align: center;
+}
+
+.mainlogo {
+  padding-top: 10px;
+  margin-bottom: -10px;
+  text-align: center;
+}

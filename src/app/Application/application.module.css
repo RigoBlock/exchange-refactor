@@ -1,0 +1,55 @@
+/* Copyright 2016 Rigo Investment Sagl. */
+
+/* .body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+} */
+
+.headline {
+  font-size: 24;
+  padding-top: 16;
+  margin-bottom: 12;
+  font-weight: 400;
+}
+
+.tabs {
+  width: 100%;
+  float: 'left';
+}
+
+.tab {
+}
+
+.copyright {
+  font-size: 0.9em;
+}
+
+.bottombar {
+  /* position: fixed;
+  width: 100%;
+  bottom: 0; */
+  align-self: flex-end !important;
+  /* flex: none !important; */
+}
+
+.maincontainer {
+  display: flex !important;
+  min-height: 100vh !important;
+  flex-direction: column !important;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto !important;
+  height: 100%;
+}
+
+.comingSoonBlur {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    padding-left: 5px;
+    /* padding-right: 5px; */
+}

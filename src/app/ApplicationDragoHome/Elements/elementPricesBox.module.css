@@ -1,0 +1,42 @@
+.price {
+  /* padding: 20px !important; */
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  opacity: 0.8;
+  text-align: center;
+  /* text-align: right; */
+  
+}
+
+.tokenSymbol {
+  font-weight: 500 !important;
+}
+
+.row {
+  padding: 5px;
+  text-align: center;
+}
+
+.buyHeader {
+  padding: 5px !important;
+  /* background-color:  #81C784; */
+  color: #4CAF50;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  /* border-left: 3px solid;
+  border-color: #81C784; */
+}
+
+.sellHeader {
+  padding: 5px !important;
+  /* background-color: #E57373; */
+  color: #F44336;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  /* border-left: 3px solid;
+  border-color: #E57373; */
+}

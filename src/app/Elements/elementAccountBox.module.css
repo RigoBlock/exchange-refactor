@@ -1,0 +1,57 @@
+.accountChipTokenETH {
+  float: left;
+  padding-bottom: 2px;
+  margin-right: 2px;
+  /* width: 130px !important; */
+}
+.accountChipTokenGGG {
+  padding-bottom: 2px;
+  /* float: right; */
+  /* width: 130px !important; */
+}
+
+.transferButton {
+  font-weight: 600 !important;
+}
+
+.copyAddress {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.actionButtons {
+  text-align: right;
+}
+
+
+.paperContainer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: 'inline-block';
+}
+
+.accountTitleContainer {
+  padding: 10px;
+}
+
+.accountBodyContainer {
+  padding: 10px;
+}
+
+.title {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.subTitle {
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 12px;
+}

@@ -1,0 +1,10 @@
+.dragoTitleDivider {
+  height: 18px;
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 16px;
+  padding-right: 16px;
+  opacity: 0.5;
+}

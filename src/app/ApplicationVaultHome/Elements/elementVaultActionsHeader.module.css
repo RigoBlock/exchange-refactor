@@ -1,0 +1,41 @@
+/* elementFundActions */
+
+.modalHeaderActions {
+  background-color: #607D8B;
+  padding: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+
+  /* background-color: rgb(232, 232, 232); */
+}
+
+.modalHeader {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 2px;
+  font-size: 16px !important;
+  line-height: 20px !important;
+}
+
+.modalTitle {
+  background-color: #e8e8e8;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.modalTitle small{
+  font-size: 14px;
+}
+
+.dragoTitle img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

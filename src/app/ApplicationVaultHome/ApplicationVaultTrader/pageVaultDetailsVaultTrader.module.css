@@ -1,0 +1,198 @@
+/* pageFundDetailsTrader */
+
+.identityIconContainer {
+  position: absolute;
+  padding-top: 65px;
+}
+
+.managerButtonContainer {
+  position: absolute;
+  padding-top: 75px;
+  right: 0;
+}
+
+.pageContainer {
+  margin-top: 10px;
+  height: 100%;
+}
+
+.myPositionBox {
+  padding-bottom: 10px;
+}
+
+.sectionParagraph{
+ padding-bottom: 5px;
+}
+
+.myPositionTokenSymbol {
+  font-weight: 500 !important;
+}
+
+.tradeButton {
+  text-align: center;
+  padding: 20px;
+  background-color: #EEEEEE;
+}
+
+.paperContainer {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.cardtitle {
+  background-color: #EEEEEE;
+  color: black !important;
+
+}
+
+.dragoTitle {
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+.dragoTitle img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.copyAddress {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.detailsTabContent {
+  padding: 10px;
+}
+
+.detailsContent {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.detailsTab {
+  color: #607D8B !important;
+  background-color: white !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  width: 200px !important;
+}
+
+
+.detailsTabs {
+  width: 20% !important;
+  margin: auto !important;
+}
+
+.column {
+  height: 250px !important;
+  margin-top: 10px;
+}
+
+.detailsTableCell {
+  width: 75px;
+  font-weight: 700 !important;
+  padding-left: 0px !important;
+  font-size: 16px !important;
+}
+
+.detailsTableCell2 {
+  font-size: 16px !important;
+}
+
+.detailsTableCell3 {
+  width: 50px;
+  font-size: 16px !important;
+}
+
+.detailsTableCellLiquidity {
+  width: 150px;
+  font-weight: 700 !important;
+  padding-left: 0px !important;
+  font-size: 16px !important;
+}
+
+.detailsTableCellLiquidity2 {
+  font-size: 16px !important;
+  text-align: right !important;
+}
+
+.detailsTableCellLiquidity3 {
+  width: 50px;
+  font-size: 16px !important;
+}
+
+.detailsTable {
+  /* width: 50% !important; */
+}
+
+.tabsRow {
+  background-color: #FFFFFF;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.holdings {
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 22px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  opacity: 0.8;
+  /* color: #616161; */
+}
+
+.detailsBoxContainer{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.detailsSectionContainer{
+  padding-bottom: 5px;
+}
+
+@-webkit-keyframes green-fade {
+  from {
+    color: #4CAF50;
+  }
+  to {
+    color: #000;
+  }
+}
+@-moz-keyframes green-fade {
+  from {
+    color: #4CAF50;
+  }
+  to {
+    color: #000;
+  }
+}
+@keyframes green-fade {
+  from {
+    color: #4CAF50;
+  }
+  to {
+    color: #000;
+  }
+}
+.fadeNewHolding {
+  -webkit-animation: green-fade 2s ease-in-out 0s;
+  -moz-animation: green-fade 2s ease-in-out 0s;
+  -o-animation: green-fade 2s ease-in-out 0s;
+  animation: green-fade 2s ease-in-out 0s;
+}

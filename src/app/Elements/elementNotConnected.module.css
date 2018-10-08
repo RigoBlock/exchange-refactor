@@ -1,0 +1,75 @@
+.logoImg {
+
+}
+
+.warningText {
+  text-align: center;
+  vertical-align: middle;
+  /* padding-top: 5px;
+  padding-bottom: 5px; */
+  color: #000000;
+}
+
+.paperContainer {
+  margin-top: 10px;
+  display: 'inline-block';
+}
+
+.detailsBoxContainer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.detailsSectionContainer {
+  padding-bottom: 5px;
+}
+
+.sectionParagraph{
+  padding-bottom: 5px;
+ }
+
+.titleRBModal {
+  /* float: left; */
+  padding: 0 !important; 
+}
+
+.titleRBHeader img {
+  /* float: left; */
+  width: 100%;
+}
+
+.titleRBHeaderContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.titlePrimaryText {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: auto;
+}
+
+.titleSecondaryText {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: auto;
+}
+
+
+.modalHeader {
+  padding: 0 !important;
+  margin: -8px !important;
+  border-radius: 2px;
+  font-size: 16px !important;
+  line-height: 20px !important; 
+}
+
+.modalHeader img {
+  height: 90px;
+  /* width: 460px; */
+  padding-top: 22px;
+  padding-bottom: 12px;
+}

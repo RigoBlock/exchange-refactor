@@ -1,0 +1,18 @@
+.paperContainer {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.boxContainer {
+  margin-top: 10px;
+}
+
+.cardtitle {
+  background-color: #E0E0E0;
+  color: #757575 !important;
+  height: 45px;
+  font-weight: 700;
+  font-size: 20px !important;
+}

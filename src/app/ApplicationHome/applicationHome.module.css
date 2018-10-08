@@ -1,0 +1,111 @@
+/* Copyright 2016 Rigo Investment Sagl. */
+
+.communityButton {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.socialsContainer {
+  text-align: right;
+  padding-right: 16px;
+  padding-top: 8px;
+}
+
+.socialsContainer img {
+  padding-left: 5px;
+}
+
+.telegramButtonContainer {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.body {
+  background-color: cornflower;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+.shadow {
+  box-shadow: -60px 0px 40px -90px #000000, 60px 0px 40px -90px #000000 !important;
+}
+
+@supports (-webkit-appearance:none) {
+  .shadow {  
+    box-shadow: -60px 0px 90px -90px #000000, 60px 0px 90px -90px #000000 !important;
+  }
+} 
+
+.cards {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.headline {
+  /* text-transform: uppercase; */
+  /* font-weight: 700;
+  opacity: 0.9; */
+  color: #054186;
+  font-size: 18px;
+}
+
+.subHeadline {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+.mainlogo {
+  padding-top: 24px;
+  margin-bottom: -8px;
+}
+
+.space {
+  padding-top: 5px;
+}
+
+.content {
+  text-transform: uppercase;
+
+}
+
+.cardtitle {
+  background-color: #054186;
+  color: white !important;
+  font-weight: 700;
+}
+
+.column {
+  height: 250px !important;
+}
+
+.actionbuttons {
+  position: absolute !important;
+  bottom: 10px !important;
+}
+
+.exchangebutton {
+  margin: 0 0.5em;
+}
+
+.exchangebutton button {
+  background-color: #054186 !important;
+  height: 56px !important;
+  padding: 0 10px !important;
+  font-weight: 700;
+}
+
+.exchangebutton button[disabled] {
+  opacity: 0.25;
+  font-weight: 700;
+}
+
+.tabs {
+}
+
+.tab {
+}

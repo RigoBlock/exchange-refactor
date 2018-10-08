@@ -1,0 +1,70 @@
+
+.loadingDiv {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.logoImg {
+  width: 68px;
+  margin-left: -5px;
+  padding-bottom: 15px;
+}
+
+.divFullHeight {
+  height:100vh;
+  background-color: #F5F5F5; 
+}
+
+.warningText {
+  text-align: center;
+}
+
+.titleRBModal {
+  /* float: left; */
+  padding: 0 !important; 
+}
+
+.titleRBHeader img {
+  /* float: left; */
+  width: 100%;
+}
+
+.titleRBHeaderContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.titlePrimaryText {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-left: auto;
+}
+
+.titleSecondaryText {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-left: auto;
+}
+
+
+.modalHeader {
+  padding: 0 !important;
+  margin: -8px !important;
+  border-radius: 2px;
+  font-size: 16px !important;
+  line-height: 20px !important; 
+}
+
+.modalHeader img {
+  width: 100%;
+}

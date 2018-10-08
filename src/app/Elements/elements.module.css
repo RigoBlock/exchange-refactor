@@ -1,0 +1,72 @@
+/* topBarLinksMenu */
+
+
+.networkIconClosed {
+  margin-right: -8px;
+  margin-top: -4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: -4px;
+  padding-right: 8px;
+}
+
+.networkIconOpen {
+  margin-right: -8px;
+  margin-top: -4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: -4px;
+  padding-right: 8px;
+  background-color: #fff;
+  color: #054186 !important;
+}
+
+/* leftSideDrawer */
+
+.maincontainer {
+  height: 100%
+}
+
+.leftDrawer {
+  height: 100% !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.containerleftDrawer {
+  position: relative !important;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 10px !important;
+  overflow-x: hidden !important;
+  width: 100% !important;
+  /* min-width: 200px !important; */
+}
+
+.menu {
+  width: 200% !important;
+}
+
+.activeLink {
+  font-weight: 900 !important;
+  color: red !important;
+}
+
+a.selected {
+  color: red !important;
+}
+
+.notifications {}
+
+.menuItemPrimaryText {
+  font-weight: 600 !important;
+  margin-bottom: -15px;
+}
+
+.menuAccountType {
+  padding: 5px 0px !important;
+}
+
+@media screen and (max-width: 480px) {
+  .responsiveLinks {
+    visibility: hidden;
+  }
+}

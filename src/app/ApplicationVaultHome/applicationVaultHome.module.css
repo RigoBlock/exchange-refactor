@@ -1,0 +1,98 @@
+/* Copyright 2016 Rigo Investment Sagl. */
+
+/* .body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+} */
+
+
+/* applicationDragoHome */
+
+.maincontainer {
+  height: 100%
+}
+
+
+/* eventTransactions */
+
+.transactionsDivider {
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+
+/* elementTradeBox */
+
+.actions {
+  text-align: center;
+  padding: 2em 0 0 0;
+  width: 100%;
+}
+
+.button {
+  margin: 0 0.5em;
+}
+
+.vault {
+  float: left;
+  padding-left: 0.5cm;
+}
+
+.button button {
+  /* background-color: #00BCD4 !important; */
+  height: 56px !important;
+  padding: 0 10px !important;
+}
+
+.button button[disabled] {
+  opacity: 0.25;
+}
+
+.dlgbtn {
+}
+
+.dlgbtn span {
+  color: #430 !important;
+}
+
+.dlgbtn[disabled] {
+  opacity: 0.25;
+}
+
+.dialog {
+}
+
+.dialog h3 {
+  color: #430 !important;
+  text-transform: uppercase;
+}
+
+.dialogtext {
+  padding-top: 1em;
+}
+
+.link, .link:hover, .link:visited {
+  color: rgb(0, 188, 212);
+  text-decoration: none;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay svg {
+  opacity: 0;
+}
+
+.toggle {
+  text-align: right;
+}
+
+.overlaytoggle {
+  position: absolute !important;
+  top: 40px;
+  right: 0;
+  display: inline-block !important;
+  width: auto !important;
+}

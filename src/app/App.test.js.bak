@@ -1,0 +1,14 @@
+// import "babel-polyfill";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+// import scrollTo from 'scroll-to'
+
+// https://github.com/component/scroll-to/pull/10
+jest.mock('scroll-to', () => 'scroll-to');
+
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+});

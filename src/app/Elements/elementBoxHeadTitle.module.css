@@ -1,0 +1,21 @@
+.headerText {
+  background-color: #E0E0E0;
+  padding: 5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  font-size: 20px;
+  color: #757575;
+  height: 45px;
+}
+
+.header {
+  padding: 0 !important;
+  margin: 0 0 0 0 !important;
+  border-radius: 2px;
+  font-size: 16px !important;
+  line-height: 20px !important; 
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+

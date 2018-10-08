@@ -1,0 +1,30 @@
+/* elementAccountSelector */
+
+.logo {
+  padding: 4px 0 !important;
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+  margin-right: 1em;
+  text-transform: uppercase;
+}
+
+.balance {
+  display: inline-block;
+  text-align: right;
+  color: #aaa;
+}
+
+.details {
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+}
+
+.image img {
+  margin: 0 1em -11px 0;
+}

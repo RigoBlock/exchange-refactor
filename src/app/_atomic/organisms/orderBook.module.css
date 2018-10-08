@@ -1,0 +1,52 @@
+.spread {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  color: #616161;
+  width: 100%;
+  text-align: right;
+  border-top-color: #E0E0E0;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: #E0E0E0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
+.sectionHeaderOrderTable {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 5px;
+  padding-bottom: 5px;
+}
+
+.appBar {
+  z-index: 0 !important;
+  text-align: center;
+}
+
+.quantityText {
+  padding-right: 14px;
+  text-align: right;
+  opacity: 0.5;
+  
+}
+
+.priceText {
+  padding-right: 14px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+.orderBookContainer{
+  font-weight: 600;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.ordersContainer {
+  height: 300px;
+  width: 100%;
+  margin-left: 0px;
+  /* background:#F5F5F5 !important; */
+}

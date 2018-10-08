@@ -1,0 +1,30 @@
+.activeStep .titleStep {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* .activeStep svg {
+  height: 34px;
+  width: 34px;
+} */
+
+.notActiveStep {}
+
+.titleStep {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.unlockedText {
+  color: #4CAF50;
+  font-weight: 700;
+}
+
+.lockedText {
+  color: #FF9800;
+  font-weight: 700;
+}
+
+.errorMsg {
+  color: #FF9800;
+}

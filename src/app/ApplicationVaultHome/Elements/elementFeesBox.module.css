@@ -1,0 +1,33 @@
+.price {
+  /* padding: 20px !important; */
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.boxHeader {
+  
+}
+
+.actionButton {
+  text-align: center;
+  padding: 10px;
+}
+
+.buyHeader {
+  padding: 20px !important;
+  background-color:  #81C784;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sellHeader {
+  padding: 20px !important;
+  background-color: #E57373;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}

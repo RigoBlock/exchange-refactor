@@ -1,0 +1,23 @@
+.modalTitle {
+  background-color: #e8e8e8;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin: 0;
+}
+
+.modalTitle small{
+  font-size: 14px;
+}
+
+.dragoTitle img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

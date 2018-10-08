@@ -1,0 +1,39 @@
+.detailsToolbarGroup {
+  width: 100% !important;
+}
+
+.identityIconContainer {
+  position: absolute;
+  padding-top: 50px;
+}
+
+.dragoTitle {
+  padding-left: 100px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+
+.dragoTitle img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.managerButtonContainer {
+  position: absolute;
+  padding-top: 64px;
+  right: 16px;
+}
+
+.detailsToolbar {
+  height: 100% !important;
+}

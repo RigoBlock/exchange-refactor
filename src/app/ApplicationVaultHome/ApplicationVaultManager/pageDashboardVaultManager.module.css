@@ -1,0 +1,108 @@
+/* pageDashboardDragoTrade */
+
+.copyAddress {
+  height: 16px !important;
+  width: 16px !important;
+}
+
+.detailsTab {
+  color: #607D8B !important;
+  background-color: white !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+}
+
+.detailsTabs {
+  width: 30% !important;
+  margin: auto !important;
+}
+
+.transactionsStyle {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: 'inline-block';
+}
+
+.accountChip {
+  margin: 5px !important;
+}
+
+.detailsToolbar {
+  height: 100% !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detailsToolbarGroup {
+  width: 100% !important;
+}
+
+.paperContainer {
+  margin-top: 10px;
+  display: 'inline-block';
+}
+
+.navLinkMenuActive {
+  background-color: red;
+}
+
+.element {
+  height: 600px;
+}
+
+.topBar {
+  width: 100%;
+}
+
+.topFixedLinkBar {    
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: inherit; /* Full width */
+  margin: auto;
+}
+
+.topRelativeLinkBar {    
+  position: relative; /* Set the navbar to fixed position */
+}
+
+.newDragoButton {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.tabsRow {
+  background-color: #FFFFFF;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+}
+
+.appBar {
+  z-index: 0 !important;
+}
+
+.detailsBoxContainer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.detailsSectionContainer {
+  padding-bottom: 5px;
+}
+
+.sectionParagraph{
+  padding-bottom: 5px;
+ }
+
+ .deployButtonContainer{
+   text-align: right;
+ }

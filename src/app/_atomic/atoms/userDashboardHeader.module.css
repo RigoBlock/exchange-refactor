@@ -1,0 +1,47 @@
+
+.identityIconContainer {
+  position: absolute;
+  padding-top: 55px;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 0.5em;
+  /* box-shadow: 0px 0px 2px 2px rgb(224, 224, 224); */
+}
+
+.userTitle {
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+.userTitle img {
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.userTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
+.managerButtonContainer {
+  position: absolute;
+  padding-top: 75px;
+  right: 0;
+}
+
+.detailsToolbar {
+  height: 90px !important;
+  border-top-right-radius: 2px !important;
+  border-top-left-radius: 2px !important;
+}
+
+.detailsToolbarGroup {
+  width: 100% !important;
+}

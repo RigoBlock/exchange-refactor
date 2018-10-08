@@ -1,0 +1,35 @@
+.sectionTitle {
+  font-size: 10px;
+}
+
+.sectionOrder {
+  font-size: 12px;
+}
+
+.sectionOrderEmpty {
+  font-size: 12px;
+}
+
+.cellOrder:hover{
+  background:#F5F5F5 !important;
+}
+
+.cellOrder{
+  /* margin-right: -6px; */
+}
+
+
+.containerOrders {
+  text-align: right;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 1px;
+  border-top-color: rgb(224, 224, 224);
+  border-bottom-color: rgb(224, 224, 224);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 1px;
+}
+
+
+

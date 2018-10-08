@@ -1,0 +1,40 @@
+.pageContainer {
+  margin-top: 10px;
+  display: 'inline-block';
+}
+
+.dragoTitle img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.dragoTitle p {
+  font-size: 1.5em !important;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.detailsToolbar {
+  height: 100% !important;
+}
+
+
+.detailsToolbarGroup {
+  width: 100% !important;
+}
+
+.transactionsStyle {
+  height: 100%;
+  width: 100%;
+  padding: 45px 20px 20px 20px;
+  display: 'inline-block';
+}
+
+.filterBox {
+  height: 100%;
+  width: 100%;
+  padding: 45px 20px 20px 20px;
+  display: 'inline-block';
+}

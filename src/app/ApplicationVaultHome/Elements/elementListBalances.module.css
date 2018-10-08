@@ -1,0 +1,106 @@
+.noDataChart {
+  font-size: 14px;
+  font-weight: 700;
+  opacity: 0.5;
+  margin: auto;
+  text-align: center;
+}
+
+.valueText {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.symbolLegendText{
+  font-weight: 700;
+  opacity: 0.7;
+}
+
+.symbolText{
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.9;
+  position: relative;
+}
+
+.txIcon {
+  position: absolute;
+  right: 5px;
+}
+
+.holdingDataText {
+  text-align: right;
+}
+
+.nameText {
+  font-size: 14px;
+}
+
+.holdingTitleText {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Table {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.headerRow,
+.evenRow,
+.oddRow {
+  /* border-bottom: 1px solid #e0e0e0; */
+  padding-right: 0px !important;
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  /* padding-bottom: 5px; */
+}
+
+.headerColumn {
+  margin-right: 0px !important;
+  text-transform: none;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.exampleColumn {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* text-align: right; */
+}
+
+.checkboxLabel {
+  margin-left: .5rem;
+}
+
+.checkboxLabel:first-of-type {
+  margin-left: 0;
+}
+
+.noRows {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #bdbdbd;
+}
+
+.chart {
+/* min-width: 200px; */
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 1px;
+border-radius: 4px 4px 4px 4px;
+margin: 10px;
+/* height: 145px; */
+/* width: 200px; */
+}
+.actionButtonContainer {
+  right: 25px;
+  top: 10px;
+  position: absolute;
+}

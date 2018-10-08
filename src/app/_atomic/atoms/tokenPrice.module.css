@@ -1,0 +1,60 @@
+.tokenPrice {
+  font-size: 24px;
+  opacity: 0.7;
+  font-weight: 600;
+}
+
+.priceIncreased {
+color: #4CAF50;
+}
+
+.priceDecreased {
+  color: #F44336;
+}
+
+.priceNoVariation {
+  color: black;
+}
+
+.priceVariation{
+  font-size: 14px;
+}
+
+.tokenPair {
+
+}
+
+.baseToken {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 1 !important;
+}
+
+.quoteToken {
+  color:#757575;
+  font-size: 16px;
+}
+
+.symbol {
+  /* padding: 4px 0 !important; */
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 120px;
+}
+
+.details {
+  display: inline-block;
+}
+
+.image {
+  display: inline-block;
+  width: 50px;
+}
+
+.image img {
+  margin-top: 16px;
+}

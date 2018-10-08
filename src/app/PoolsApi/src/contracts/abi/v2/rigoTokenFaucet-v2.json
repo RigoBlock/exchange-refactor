@@ -1,0 +1,216 @@
+[{
+  "constant": true,
+  "inputs": [],
+  "name": "faucetStatus",
+  "outputs": [
+      {
+          "name": "",
+          "type": "bool"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "view",
+  "type": "function"
+},
+{
+  "constant": false,
+  "inputs": [
+      {
+          "name": "_new",
+          "type": "address"
+      }
+  ],
+  "name": "setOwner",
+  "outputs": [],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "constant": false,
+  "inputs": [
+      {
+          "name": "_value",
+          "type": "uint256"
+      }
+  ],
+  "name": "withdraw",
+  "outputs": [
+      {
+          "name": "success",
+          "type": "bool"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "constant": true,
+  "inputs": [],
+  "name": "faucetName",
+  "outputs": [
+      {
+          "name": "",
+          "type": "string"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "view",
+  "type": "function"
+},
+{
+  "constant": true,
+  "inputs": [],
+  "name": "tokenInstance",
+  "outputs": [
+      {
+          "name": "",
+          "type": "address"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "view",
+  "type": "function"
+},
+{
+  "constant": false,
+  "inputs": [],
+  "name": "drip1Token",
+  "outputs": [
+      {
+          "name": "success",
+          "type": "bool"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "constant": true,
+  "inputs": [],
+  "name": "owner",
+  "outputs": [
+      {
+          "name": "",
+          "type": "address"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "view",
+  "type": "function"
+},
+{
+  "constant": false,
+  "inputs": [],
+  "name": "turnFaucetOff",
+  "outputs": [
+      {
+          "name": "success",
+          "type": "bool"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "constant": false,
+  "inputs": [],
+  "name": "turnFaucetOn",
+  "outputs": [
+      {
+          "name": "success",
+          "type": "bool"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "function"
+},
+{
+  "inputs": [
+      {
+          "name": "_tokenInstance",
+          "type": "address"
+      },
+      {
+          "name": "_faucetName",
+          "type": "string"
+      }
+  ],
+  "payable": false,
+  "stateMutability": "nonpayable",
+  "type": "constructor"
+},
+{
+  "anonymous": false,
+  "inputs": [
+      {
+          "indexed": true,
+          "name": "sender",
+          "type": "address"
+      },
+      {
+          "indexed": false,
+          "name": "value",
+          "type": "uint256"
+      }
+  ],
+  "name": "Deposit",
+  "type": "event"
+},
+{
+  "anonymous": false,
+  "inputs": [
+      {
+          "indexed": true,
+          "name": "receiver",
+          "type": "address"
+      }
+  ],
+  "name": "OneTokenSent",
+  "type": "event"
+},
+{
+  "anonymous": false,
+  "inputs": [
+      {
+          "indexed": false,
+          "name": "status",
+          "type": "bool"
+      }
+  ],
+  "name": "FaucetOn",
+  "type": "event"
+},
+{
+  "anonymous": false,
+  "inputs": [
+      {
+          "indexed": false,
+          "name": "status",
+          "type": "bool"
+      }
+  ],
+  "name": "FaucetOff",
+  "type": "event"
+},
+{
+  "anonymous": false,
+  "inputs": [
+      {
+          "indexed": true,
+          "name": "old",
+          "type": "address"
+      },
+      {
+          "indexed": true,
+          "name": "current",
+          "type": "address"
+      }
+  ],
+  "name": "NewOwner",
+  "type": "event"
+}]

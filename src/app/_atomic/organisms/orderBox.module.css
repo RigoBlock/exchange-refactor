@@ -1,0 +1,33 @@
+.sectionHeaderOrderTable {
+  font-size: 12px;
+}
+
+.appBar {
+  z-index: 0 !important;
+  text-align: center;
+}
+
+.sellButton {
+  text-align: center;
+}
+
+.buyButton {
+  text-align: center;
+}
+
+.tokenNameSymbol {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tokenSymbol {
+  opacity: 0.8;
+  font-size: 22px;
+  position: relative;
+}
+
+.tokenName {
+  opacity: 0.6;
+  font-size: 16px;
+}
