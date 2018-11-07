@@ -29,7 +29,11 @@ import TokenBalances from '../_atomic/atoms/tokenBalances'
 import TokenLiquidity from '../_atomic/atoms/tokenLiquidity'
 import TokenPrice from '../_atomic/atoms/tokenPrice'
 import TokenTradeSelector from '../_atomic/molecules/tokenTradeSelector'
-import exchangeConnector, { supportedExchanges, NETWORKS, exchanges } from '@rigoblock/exchange-connector'
+import exchangeConnector, {
+  NETWORKS,
+  exchanges,
+  supportedExchanges
+} from '@rigoblock/exchange-connector'
 
 import {
   CANCEL_SELECTED_ORDER,
@@ -144,11 +148,11 @@ class ApplicationExchangeHome extends Component {
     const defaultTokensPair = {
       baseToken:
         ERC20_TOKENS[api._rb.network.name][
-        defaultRelay.defaultTokensPair.baseTokenSymbol
+          defaultRelay.defaultTokensPair.baseTokenSymbol
         ],
       quoteToken:
         ERC20_TOKENS[api._rb.network.name][
-        defaultRelay.defaultTokensPair.quoteTokenSymbol
+          defaultRelay.defaultTokensPair.quoteTokenSymbol
         ]
     }
     console.log('***** MOUNT *****')
@@ -641,7 +645,7 @@ class ApplicationExchangeHome extends Component {
                     <TokenBalances
                       liquidity={exchange.selectedFund.liquidity}
                       selectedTradeTokensPair={exchange.selectedTokensPair}
-                    // loading={exchange.loading.liquidity}
+                      // loading={exchange.loading.liquidity}
                     />
                   </Col>
                 </Row>
@@ -766,7 +770,7 @@ class ApplicationExchangeHome extends Component {
       })
       // console.log(results)
       results[1] = createdLogs
-      results[2].sort(function (a, b) {
+      results[2].sort(function(a, b) {
         let keyA = a.symbol,
           keyB = b.symbol
         // Compare the 2 dates

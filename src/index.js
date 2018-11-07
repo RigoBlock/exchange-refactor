@@ -3,11 +3,6 @@
 const program = require('commander')
 const fs = require('fs-extra')
 const Handlebars = require('handlebars')
-const pino = require('pino')
-
-const logger = pino({
-  prettyPrint: { colorize: true }
-})
 
 const appHomePath =
   './src/app/ApplicationExchangeHome/applicationExchangeHome.js'
@@ -29,6 +24,10 @@ fs.ensureDirSync(__dirname + refactorPath + '/_utils/')
 fs.ensureDirSync(__dirname + refactorPath + '/Elements/')
 
 const extract = async () => {
+  const indexTemplate = fs.readFileSync(
+    __dirname + '/indexTemplate.handlebars',
+    'utf8'
+  )
   const matches = getImportedComponents(appHomePath)
   const sourceComponents = matches.map(el =>
     el.replace('..', __dirname + srcPath)
@@ -41,8 +40,13 @@ const extract = async () => {
   const copyPromises = destinationComponents.map(async (path, index) => {
     await fs.ensureDirSync(path)
     const filename = `${path.split('/').pop()}`
-    await fs.ensureFile(`${path}/index.js`)
-    await fs.ensureFile(`${path}/${filename}.test.js`)
+    const source = {
+      name: filename
+    }
+    const template = Handlebars.compile(indexTemplate)
+    const indexData = template(source)
+    await fs.outputFile(`${path}/index.js`, indexData)
+    // await fs.ensureFile(`${path}/${filename}.test.js`)
     await fs.copy(`${sourceComponents[index]}.js`, `${path}/${filename}.jsx`)
   })
 
