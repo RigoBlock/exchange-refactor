@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "extract": "node src/index.js"
+  },
   "dependencies": {
     "commander": "^2.18.0",
     "inquirer": "^6.2.0",
