@@ -24,10 +24,16 @@ fs.ensureDirSync(__dirname + refactorPath + '/_utils/')
 fs.ensureDirSync(__dirname + refactorPath + '/Elements/')
 
 const extract = async () => {
-  const indexTemplate = fs.readFileSync(
-    __dirname + '/indexTemplate.handlebars',
+  const indexTemplateSource = fs.readFileSync(
+    __dirname + '/templates/index.handlebars',
     'utf8'
   )
+  const testTemplateSource = fs.readFileSync(
+    __dirname + '/templates/test.handlebars',
+    'utf8'
+  )
+  const indexTemplate = Handlebars.compile(indexTemplateSource)
+  const testTemplate = Handlebars.compile(testTemplateSource)
   const matches = getImportedComponents(appHomePath)
   const sourceComponents = matches.map(el =>
     el.replace('..', __dirname + srcPath)
@@ -43,10 +49,10 @@ const extract = async () => {
     const source = {
       name: filename
     }
-    const template = Handlebars.compile(indexTemplate)
-    const indexData = template(source)
+    const indexData = indexTemplate(source)
+    const testData = testTemplate(source)
     await fs.outputFile(`${path}/index.js`, indexData)
-    // await fs.ensureFile(`${path}/${filename}.test.js`)
+    await fs.outputFile(`${path}/${filename}.test.js`, testData)
     await fs.copy(`${sourceComponents[index]}.js`, `${path}/${filename}.jsx`)
   })
 
