@@ -38,7 +38,6 @@ const extract = async () => {
   const sourceComponents = matches.map(el =>
     el.replace('..', __dirname + srcPath)
   )
-  console.log(sourceComponents)
   const destinationComponents = matches.map(el =>
     el.replace('..', __dirname + refactorPath)
   )
@@ -54,43 +53,16 @@ const extract = async () => {
     await fs.outputFile(`${path}/index.js`, indexData)
     await fs.outputFile(`${path}/${filename}.test.js`, testData)
     await fs.copy(`${sourceComponents[index]}.js`, `${path}/${filename}.jsx`)
+    if (fs.existsSync(`${sourceComponents[index]}.module.css`)) {
+      await fs.copy(
+        `${sourceComponents[index]}.module.css`,
+        `${path}/${filename}.module.css`
+      )
+    }
   })
 
   await Promise.all(copyPromises)
-
-  // sourceComponents.forEach((element, key) => {
-  //   logger.info(`Copying to destination folder: ${element}.js`)
-  //   let elementArray = element.split('/')
-  //   let fileName = elementArray.pop()
-  //   fs.createReadStream(element + '.js').pipe(
-  //     fs.createWriteStream(destinationComponents[key] + '/' + fileName + '.js')
-  //   )
 }
-
-//   if (fs.existsSync(element + '.module.css')) {
-//     fs.createReadStream(element + '.module.css').pipe(
-//       fs.createWriteStream(
-//         destinationComponents[key] + '/' + fileName + '.module.css'
-//       )
-//     )
-//   }
-
-//   let testTemplate = fs.readFileSync('./src/templates/test.mst').toString()
-//   let indexTemplate = fs.readFileSync('./src/templates/index.mst').toString()
-//   let view = {
-//     fileName: fileName
-//   }
-//   logger.info(`Creating test file.`)
-//   fs.writeFileSync(
-//     destinationComponents[key] + '/' + fileName + '.test.js',
-//     Mustache.render(testTemplate, view)
-//   )
-//   logger.info(`Creating index file.`)
-//   fs.writeFileSync(
-//     destinationComponents[key] + '/index.js',
-//     Mustache.render(indexTemplate, view)
-//   )
-// })
 
 getImportedComponents = file => {
   let content = fs.readFileSync(file, 'utf8')
