@@ -65,14 +65,14 @@ const extract = async () => {
 }
 
 getImportedComponents = file => {
-  let content = fs.readFileSync(file, 'utf8')
+  const content = fs.readFileSync(file, 'utf8')
   return content
     .match(/\.+\/[a-zA-Z\/_\.]*/g)
     .filter(element => !onlyComponentsRegExp.test(element))
 }
 
 getImportedCss = file => {
-  let content = fs.readFileSync(file, 'utf8')
+  const content = fs.readFileSync(file, 'utf8')
   return content
     .match(/\.+\/[a-zA-Z\/_\.]*/g)
     .filter(element => cssFileComponent.test(element))
